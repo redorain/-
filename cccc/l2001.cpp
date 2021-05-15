@@ -35,7 +35,7 @@ priority_queue <tst> q;
 struct node {
     int next, w, to;
 } e[maxn];
-vector <int> road[maxn];
+vector <int> road[maxn]
 
 void add(int u, int v, int w) {
     e[++cnt].next = h[u];
